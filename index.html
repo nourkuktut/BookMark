@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bookmarker</title>
@@ -9,26 +8,29 @@
     <!--^ ======== Favicon  -->
     <link rel="icon" href="./assets/imgs/favicon.png" />
     <!--^ ======== font google  -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <!--^ ======== Main Style  -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
-</head>
+  </head>
 
-<body onload="fetchBookmarks()">
+  <body onload="fetchBookmarks()">
     <div class="container">
-        <header>
-            <h1>Bookmarker</h1>
-            <p>Bookmark your favorite sites</p>
-        </header>
-        <form id="bookmarkForm" onsubmit="submitForm(); return false;">
-            <label for="site-name">Site Name:</label>
-            <input type="text" id="site-name" placeholder="Bookmark Name" />
+      <header>
+        <h1>Bookmarker</h1>
+        <p>Bookmark your favorite sites</p>
+      </header>
+      <form id="bookmarkForm" onsubmit="submitForm(); return false;">
+        <label for="site-name">Site Name:</label>
+        <input type="text" id="site-name" placeholder="Bookmark Name" />
 
-            <label for="site-url">Site URL:</label>
-            <input type="text" id="site-url" placeholder="Website URL" />
+        <label for="site-url">Site URL:</label>
+        <input type="text" id="site-url" placeholder="Website URL" />
 
-            <!-- /* From Uiverse.io by cssbuttons-io */ -->
-            <button class="c-button c-button--gooey" type="submit">
+        <!-- /* From Uiverse.io by cssbuttons-io */ -->
+        <button class="c-button c-button--gooey" type="submit">
           Submit
           <div class="c-button__blobs">
             <div></div>
@@ -36,7 +38,11 @@
             <div></div>
           </div>
         </button>
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          version="1.1"
+          style="display: block; height: 0; width: 0"
+        >
           <defs>
             <filter id="goo">
               <feGaussianBlur
@@ -55,23 +61,22 @@
           </defs>
         </svg>
 
-            <!-- <button type="submit">Submit</button> -->
-        </form>
+        <!-- <button type="submit">Submit</button> -->
+      </form>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Index</th>
-                    <th>Website Name</th>
-                    <th>Visit</th>
-                    <th>Delete</th>
-                </tr>
-            </thead>
-            <tbody id="bookmarks-results"></tbody>
-        </table>
+      <table>
+        <thead>
+          <tr>
+            <th>Index</th>
+            <th>Website Name</th>
+            <th>Visit</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody id="bookmarks-results"></tbody>
+      </table>
     </div>
 
     <script src="./assets/js/script.js"></script>
-</body>
-
+  </body>
 </html>
