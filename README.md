@@ -59,6 +59,6 @@ If you would like to contribute to this project, feel free to fork the repositor
 ## Contact:
 For inquiries about this project or similar development services, feel free to contact me:
 <br>
-**Linkedin: [here](www.linkedin.com/in/nourkutkut).**
+**Linkedin: [here](https://www.linkedin.com/in/nourkutkut).**
 <br>
 **Email:nourkutkut12@gmail.com**
